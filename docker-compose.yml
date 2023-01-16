@@ -1,0 +1,11 @@
+version: "3.7"
+
+services:
+  vanbanhanhchinh:
+    image: vbhc:latest
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+    container_name: vanbanhanhchinh
+    ports:
+      - 10030:80
