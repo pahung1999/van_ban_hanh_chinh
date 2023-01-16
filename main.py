@@ -7,7 +7,7 @@ import pytesseract
 app = FastAPI()
 
 
-@app.post("/uploadfile/vbhc")
+@app.post("/uploadfile/van_ban_hanh_chinh")
 # async def create_upload_file(file: Union[UploadFile, None] = None):
 def upload(
         file: UploadFile = File(...)
