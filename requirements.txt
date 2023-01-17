@@ -4,3 +4,4 @@ uvicorn[standard]
 pdf2image
 pytesseract
 python-multipart
+streamlit
