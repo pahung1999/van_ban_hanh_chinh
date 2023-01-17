@@ -4,5 +4,5 @@ pip install -r requirements.txt
 ```
 ## run program
 ```
-python main.py
+streamlit run streamlit_main.py
 ```
